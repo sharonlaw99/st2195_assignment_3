@@ -8,11 +8,13 @@ In this assignment, we will be constructing an SQLite database called **airline2
 
 We will be using tables which contains data that were obtained from the [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/HG7NV7) known as *Data Expo 2009: Airline on time data*.
 
-# Solve a query
-Which airplane has the lowest associated average departure delay (excluding cancelled and diverted flights)?
+# Solve queries
+We also need to solve queries that were in the practice quiz. The queries can be found on the VLE platform.
+
+**Note**: For R, the queries have to be solved using both DBI and dplyr notation.
 
 ### References
-The tables used with their respective data from the Harvard Dataverse is listed below:
+The tables used with their respective data from the Harvard Dataverse are listed below:
 
 1. ontime (data from 2000 - 2005, including 2000 and 2005)
 
