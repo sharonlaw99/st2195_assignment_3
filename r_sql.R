@@ -13,7 +13,7 @@ conn <- dbConnect(RSQLite::SQLite(),"airline2.db")
 # ======= write to the database ======= 
 # load in the data from the csv
 airports <- read.csv("airports.csv", header = TRUE)
-carriers <- read.cav("carriers.csv", header = TRUE)
+carriers <- read.csv("carriers.csv", header = TRUE)
 planes <- read.csv("plane-data.csv", header = TRUE)
 dbWriteTable(conn, "airports", airports)
 dbWriteTable(conn, "carriers", carriers)
